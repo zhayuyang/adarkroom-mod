@@ -412,23 +412,33 @@ Events.Encounters = [
 				damage: 15,
 				hit: 0.8,
 				attackDelay: 1,
-				health: 100,
+				health: 150,
 				ranged: false,
 				loot: {
 					'cloth': {
 						min: 50,
 						max: 100,
-						chance: 0.8
+						chance: 0.1
 					},
 					'bullets': {
 						min: 10,
 						max: 50,
-						chance: 0.5
+						chance: 0.3
 					},
 					'rifle': {
 						min: 1,
 						max: 2,
 						chance: 0.2
+					},
+					'laser rifle': {
+						min: 1,
+						max: 1,
+						chance: 0.1
+					},
+					'energy cell': {
+						min: 1,
+						max: 10,
+						chance: 0.1
 					},
 					'medicine': {
 						min: 10,

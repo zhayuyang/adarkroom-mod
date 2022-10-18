@@ -353,33 +353,6 @@ var Room = {
 				};
 			},
 			audio: AudioLibrary.CRAFT_RIFLE
-		},
-		'laser rifle': {
-			name: _('laser rifle'),
-			type: 'weapon',
-			buildMsg: _("an advanced rifle."),
-			cost: function () {
-				return {
-					'iron': 200,
-					'steel': 100,
-					'sulphur': 50,
-					'energy cell': 10
-				};
-			},
-			audio: AudioLibrary.CRAFT_RIFLE
-		},
-		'energy cell': {
-			name: _('energy cell'),
-			type: 'weapon',
-			buildMsg: _("an energy cell"),
-			cost: function () {
-				return {
-					'iron': 10,
-					'steel': 1,
-					'coal': 10
-				};
-			},
-			audio: AudioLibrary.CRAFT_RIFLE
 		}
 	},
 
