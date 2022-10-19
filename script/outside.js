@@ -24,7 +24,7 @@ var Outside = {
 			stores: {
 				'fur': 0.5,
 				'meat': 0.5,
-				'scale':0.1
+				'scales':0.1
 			}
 		},
 		'trapper': {
