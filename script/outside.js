@@ -23,7 +23,8 @@ var Outside = {
 			delay: 10,
 			stores: {
 				'fur': 0.5,
-				'meat': 0.5
+				'meat': 0.5,
+				
 			}
 		},
 		'trapper': {
